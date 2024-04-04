@@ -28,7 +28,7 @@ while True:
     print(f"클라이언트로부터 받은 메시지: {received_message}")
 
     # 클라이언트에게 응답을 보냄
-    response_message = "여기는 화이트햇스쿨, 수신 양호, 과제 제출 바람!"
+    response_message = "I'm-a Luigi, number one!!"
     client_socket.send(response_message.encode('utf-8'))
 
     # 클라이언트 소켓 닫기

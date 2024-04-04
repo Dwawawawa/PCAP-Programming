@@ -1,6 +1,6 @@
-$serverIP = "172.24.242.216" 
+$serverIP = "10.0.2.15" 
 $serverPort = 7777  
-$message = "여기는 j2s, 화이트햇스쿨 응답하라 오버!"
+$message = "It's-a me! Mario"
 
 $client = New-Object System.Net.Sockets.TcpClient
 $client.Connect($serverIP, $serverPort)
